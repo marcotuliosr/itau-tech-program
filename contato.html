@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<!--Idioma da pagina-->
+
+<head>
+    <!--Abertura do head-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Covid-19</title>
+    <!--Titulo da Página-->
+    <link rel="shortcut icon" href="assets/imagens/covid-logo.png" type="image/x-icon">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/styles/navbar.css">
+    <link rel="stylesheet" href="assets/styles/footer.css">
+    <link rel="stylesheet" href="assets/styles/contato.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<!--Fechamento head-->
+
+<body>
+    <!--Inicio body-->
+    <nav>
+        <div class="logo">
+            <!--Logo-->
+            Grupo-7
+        </div>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <!--Página home-->
+            <a href="sobre.html">Sobre</a>
+            <!--Página Sobre-->
+            <a href="contato.html">Contato</a>
+            <!--Página Contato-->
+            <a href="saibamais.html">Saiba Mais</a>
+            <!--Página Saiba Mais-->
+        </div>
+    </nav>
+    <main>
+        <div class="h1">
+            <h1>Contato</h1>
+        </div>
+        <!--O elemento <main> define o conteúdo principal dentro do <body> em seu documento ou aplicação-->
+        <!-- Notícia text 1 -->
+        <!--Início do formulário-->
+        <form id="formulario">
+
+            <h2>Dúvidas? Entre em contato conosco!</h1> <!--Titulo Formulario-->
+
+                <label for="name"> <h3>Nome <!--Primeiro campo nome-->
+            </h2>
+            </label>
+            <input type="text" id="name" placeholder="Digite seu nome" required="required" name="name" min="1"
+                max="30" /><br>
+
+            <label for="fone"> <!--Segundo campo telefone-->
+                <h3>Telefone</h2>
+            </label>
+            <input type="tel" id="fone" placeholder="(xx)xx-xx-xx-xx" required="required" name="fone" min="1" max="12" /><br>
+
+            <label for="email"> <!--Terceiro campo e-mail-->
+                <h3>E-mail</h2>
+            </label>
+            <input type="email" id="email" placeholder="grupo7@gmail.com" required="required" name="email" /><br>
+
+            <textarea id='texto' placeholder="Deixe a sua opinião" name="texto"></textarea><br>
+
+            <button type="submit" value="submit" onclick="enviar()">Enviar</button> <!--Botão enviar formulario-->
+            <button type="reset" value="reset">Limpar Campos</button> <!-- Botão limpar campos-->
+
+        </form>
+        <!--Final de formulário-->
+    </main>
+    <div class="footer"><!-- Inicio Footer-->
+        <a href="https://www.instagram.com/itau/?hl=pt-br" target="_blank"><img src="assets/imagens/logo/instagram.png"
+               alt="Acesse o instagram do itaú" class="logo"></a>
+        <a href="https://www.facebook.com/itau/" target="_blank"><img src="assets/imagens/logo/facebook.png" alt="Acesse o facebook do Itaú"
+                class="logo"></a>
+        <a href="https://www.linkedin.com/company/itau/" target="_blank"><img src="assets/imagens/logo/linkedin.png" alt="Acesse o linkedin do Itaú"
+                class="logo"></a>
+        <h5>Copyright &copy; Grupo-7 - Covid 19</h5> <!--Copyright-->
+    </div>
+</body><!-- Fechamento body-->
+<script src="assets/scripts/contatojava.js"></script> <!-- Script validação formulario-->
+
+</html> <!--Fim do HTML-->

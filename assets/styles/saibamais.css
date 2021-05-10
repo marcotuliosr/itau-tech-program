@@ -1,0 +1,80 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.h1{
+	text-align: center;
+	font-size: 25px;
+	font-family: Lucida;
+	background-color: #e9e9e9;
+	margin-top: 10px;
+}
+section {
+	padding: 2rem 25%;
+	width: 100%;
+	background-color: #fbfbfb;
+}
+
+
+
+.reference .card-left {
+	position: relative;
+	width: 600px;
+	height: 240px;
+	border: 5px outset grey;
+	border-radius: 5px;
+	background-color: #e9e9e9;
+	}
+	
+	.reference .card-right {
+	position: relative;
+	width: 600px;
+	height: 240px;
+	border: 5px outset grey;
+	border-radius: 5px;
+	background-color: #fbfbfb;
+	}
+	
+	.reference .card-image {
+	display: block;
+	float: left;
+	}
+
+.reference .card-image img {
+	width: 200px;
+	height: 230px;
+	
+	}
+
+.card-left h3, .card-right h3 {
+	font-size: 18px;
+	}
+
+.link-more {
+	display: block;
+	position:absolute;
+	right: 0;
+	bottom: 0;
+	margin: 10px;
+}
+
+.card-left a, .card-right a {
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	}
+
+	.news-text .news-text-header {
+		text-align: center;
+		border-bottom: 1px solid #c5c5c5;
+	}
+	
+	.news-text .news-text-header .news-text-header-title {
+		margin-bottom: 5px;
+		text-align: center;
+	}

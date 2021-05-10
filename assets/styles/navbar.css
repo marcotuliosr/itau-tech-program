@@ -1,0 +1,39 @@
+nav {
+    position: sticky; 
+    top: 0; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1.5rem 28%;
+    color: #fff;
+    background-color: #484848;
+   
+}
+
+.links {
+    display: flex;
+    margin: 0 -1em;
+
+}
+
+.links a {
+    display: inline-block;
+    margin: 0 1em;
+  
+}
+
+
+
+.logo {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
