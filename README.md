@@ -1,6 +1,6 @@
 Desafio Gama Academy
 
-Este projeto foi designado pela equipe de seleção da Gama Academy durante o processo seletivo da Itautec com intuito de avaliar os conhecimentos adiquiridos durante a trilha preparatória de Front End.
+Este projeto foi designado pela equipe de seleção da Gama Academy durante o processo seletivo da Itautech com intuito de avaliar os conhecimentos adiquiridos durante a trilha preparatória de Front End.
 
 Conforme solicitado, o Grupo-7 desenvolveu uma landing page com seis notícias positivas acerca da Covid-19 utilizando HTML, CSS e JavaScript.
 
